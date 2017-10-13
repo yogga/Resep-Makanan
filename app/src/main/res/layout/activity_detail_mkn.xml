@@ -12,7 +12,7 @@
         android:id="@+id/id_img"
         android:layout_width="match_parent"
         android:layout_height="150dp"
-        app:srcCompat="@drawable/img"/>
+        app:srcCompat="@drawable/kangkung"/>
 
     <ScrollView
         android:layout_width="match_parent"

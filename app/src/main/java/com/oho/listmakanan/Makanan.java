@@ -2,9 +2,6 @@ package com.oho.listmakanan;
 
 import org.w3c.dom.Text;
 
-/**
- * Created by borneo on 05/10/17.
- */
 
 public class Makanan {
     private String title, desc, bahan, prosedur;

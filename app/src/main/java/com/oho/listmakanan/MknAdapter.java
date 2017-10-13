@@ -20,9 +20,6 @@ import java.io.ByteArrayOutputStream;
 import java.io.File;
 import java.util.ArrayList;
 
-/**
- * Created by borneo on 05/10/17.
- */
 
 public class MknAdapter extends RecyclerView.Adapter<MknAdapter.MknHolder> {
     Context ctx;
@@ -79,7 +76,10 @@ public class MknAdapter extends RecyclerView.Adapter<MknAdapter.MknHolder> {
             Intent it = new Intent(itemView.getContext(), DetailMkn.class);
             it.putExtra("txtBahan", txtBahan.getText().toString());
             it.putExtra("txtProsedur", txtProsedur.getText().toString());
-            it.putExtra("img", R.drawable.img);
+            it.putExtra("img", R.drawable.kangkung);
+           /* it.putExtra("img",R.drawable.terongbalado);
+            it.putExtra("img",R.drawable.sayurasem);
+            it.putExtra("img",R.drawable.nasigoreng);*/
             ctx.startActivity(it);
         }
     }
